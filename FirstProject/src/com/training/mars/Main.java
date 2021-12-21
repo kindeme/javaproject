@@ -11,6 +11,11 @@ public class Main {
 		float f = l;
 		double d = 100.04;
 		int newInt = (int)d;
+	
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(f);
+		System.out.println(newInt);
 		
 
 	}
