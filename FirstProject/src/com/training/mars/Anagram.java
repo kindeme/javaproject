@@ -27,6 +27,8 @@ public class Anagram {
 			
 		}else {
 			// transform string to array
+			firstWord = firstWord.toLowerCase();
+			secondtWord = secondtWord.toLowerCase();
 			
 			char firstWordToArray[] = firstWord.toCharArray();
 			char secondWordToArray[] = secondtWord.toCharArray();
